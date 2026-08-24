@@ -1,0 +1,64 @@
+# No data in this repository. Scripts only.
+# Sequence data for the thirteen animals is not ours to release.
+
+# Sequence and alignment data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fa
+*.fasta
+*.fna
+*.fa.gz
+*.fasta.gz
+*.bam
+*.cram
+*.sam
+*.paf
+
+# Variant data
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bcf
+*.csi
+*.tbi
+
+# Graph and index files
+*.gfa
+*.gbz
+*.og
+*.xg
+*.gbwt
+*.min
+*.dist
+
+# Derived tables holding per-animal genotypes
+*.tsv
+*.csv
+
+# Outputs
+*.png
+*.pdf
+*.html
+*.svg
+
+# Cluster job logs
+*.o[0-9]*
+*.e[0-9]*
+*.po[0-9]*
+*.pe[0-9]*
+
+# R and Python working files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
